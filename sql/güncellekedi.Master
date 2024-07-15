@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="güncellekedi.master.cs" Inherits="sql.güncellekedi" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 62%;
+        }
+        .auto-style2 {
+            width: 335px;
+        }
+        .auto-style3 {
+            margin-left: 223px;
+        }
+        .auto-style4 {
+            margin-left: 215px;
+        }
+        .auto-style5 {
+            width: 335px;
+            height: 29px;
+        }
+        .auto-style6 {
+            height: 29px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <asp:Label ID="Label5" runat="server" CssClass="auto-style3" Text="Kullanıcı Güncelleme Paneli" Width="534px" BackColor="#003300" ForeColor="White"></asp:Label>
+            </asp:ContentPlaceHolder>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2">
+                        <asp:Label ID="Label1" runat="server" Text="Şuan ki Kullanıcı Adı :" BackColor="#003300" ForeColor="White"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBoxOldName" runat="server" BorderColor="#333399"></asp:TextBox>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" Text="Güncel Kullanıcı Adı : " BackColor="#003300" ForeColor="White"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBoxNewName" runat="server" BorderColor="#333399"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">
+                        <asp:Label ID="Label2" runat="server" Text="Şuan ki Şifre :" BackColor="#003300" ForeColor="White"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBoxOldPassword" runat="server" BorderColor="#333399"></asp:TextBox>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:Label ID="Label4" runat="server" Text="Güncel şifre: " BackColor="#003300" ForeColor="White"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBoxNewPassword" runat="server" BorderColor="#333399"></asp:TextBox>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:Button ID="Button1" runat="server" CssClass="auto-style4" OnClick="Button1_Click" Text="Güncelle" Width="231px" BackColor="#003300" ForeColor="White" />
+    </form>
+         
+         <style>
+    body {
+       
+        background: url('arkaplan.jpg') no-repeat center center fixed;
+        background-size: cover;
+
+        
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+ 
+</style>
+ 
+
+</body>
+</html>

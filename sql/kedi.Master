@@ -1,0 +1,335 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="kedi.master.cs" Inherits="sql.kedi" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Landscaper</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top">MERİ 🎔</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="page-scroll">Hakkında</a></li>
+        <li><a href="#services" class="page-scroll">Kedilerin Yaşı</a></li>
+        <li><a href="#portfolio" class="page-scroll">Kedi Irkları</a></li>
+        <li><a href="#testimonials" class="page-scroll">İlginç Bilgiler</a></li>
+        <li><a href="https://localhost:44351/WebForm1.aspx" class="page-scroll">Mesaj</a></li>
+        <li><a href="https://localhost:44351/kay%C4%B1tkedi.aspx" class="page-scroll">Kayıt Ol</a></li>
+        <li><a href="https://localhost:44351/giri%C5%9Fkedi.aspx" class="page-scroll">Giriş Yap</a></li>
+        <li><a href="https://localhost:44351/g%C3%BCncellekedi.aspx" class="page-scroll">Güncelle</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+
+
+
+<!-- Header -->
+<header id="header">
+  <div class="intro" style="background-image: url(arkaplan.jpg);">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 intro-text">
+            <h1>KEDİLER HAKKINDA HER ŞEY</h1>
+            <p>Kedilerin Dünyasını Görmeye Hazır Mısınız?<br>
+
+            <a href="#about" class="btn btn-custom btn-lg page-scroll">Daha Fazla Bilgi İçin</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <style="background-image: url(img/bg-img/arkaplan.jpg);"></style>
+</header>
+
+
+
+      
+
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h2><span>KEDİLERİN DÜNYASINA </span> HOŞGELDİNİZ </h2>
+          <hr>
+          <p>Kediler, insanlık tarihinde önemli bir yere sahip olan ve evcilleştirilmiş hayvanlardır. Antik Mısır'dan Orta Çağ'a ve günümüze kadar farklı dönemlerde, kedilerin insanlarla iç içe geçmiş bir yaşamları olmuştur. Antik Mısır'da tanrısal bir statüleri vardı; fareleri avlayarak mahsulleri koruyor, evlerde ruhani bir varlık olarak kabul ediliyorlardı. Orta Çağ'da Avrupa'da ise, farelerin neden olduğu hastalıkların yayılmasını engellemek adına kedilerin önemi artmıştı.</p>
+          <p>Günümüzde de korunmaktadır. Genellikle çevik ve atik yapıları sayesinde hızlı tepkiler verebilir, yüksek yerlere rahatlıkla tırmanabilirler. Bağımsızlık arzusuyla bilinirler; sosyal olabilirler ancak zamanlarının büyük bir kısmını kendi başlarına geçirmekten keyif alırlar. Birçok kedi, çeşitli vokal sesler kullanarak iletişim kurar ve bu sesler, ihtiyaçlarını veya duygularını ifade etmek için kullanılır. Kedilerin temizlikleri için özel bir önemleri vardır; tüylerini sık sık yalarak bakımlarını sağlarlar. Görme ve işitme duyuları oldukça gelişmiştir; gece avcıları oldukları için karanlıkta daha iyi görebilirler. Uyku düzenleri esnektir ve bir günde genellikle 12 ila 16 saat arasında uyurlar. Her bir kedi, benzersiz bir kişiliğe sahiptir ve farklı cinsler, renkler ve desenlerde gelirler, bu da her birini özel kılar.</p>
+          <a href="#services" class="btn btn-custom btn-lg page-scroll">Kedilerin Yaşları</a> </div>
+      </div>
+      <div class="col-xs-12 col-md-3">
+       <img src="q.jpg" class="img-circle" alt="Cinque Terre" width="275" height="250"> 
+        <div class="about-desc">
+          <h3></h3>
+           <img src="uwuwu.jpg" class="img-circle" alt="Cinque Terre" width="275" height="250"> 
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <img src="for2.jpg" class="img-circle" alt="Cinque Terre" width="275" height="250"> 
+        <div class="about-desc">
+          <h3></h3>
+          <img src="for.jpg" class="img-circle" alt="Cinque Terre" width="275" height="250"> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Services Section -->
+<div id="services">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 section-title text-center">
+      <h2>KEDİLERİN İNSANLARA GÖRE YAŞLARI</h2>
+      <hr>
+      <p>Dünyanın en uzun yaşayan kedisi: Flossie dünyanın "yaşayan en yaşlı kedisi" unvanını elde etse de, dünyanın "en yaşlı kedisi" unvanı için daha önünde uzun yıllar var. Çünkü bu rekor Amerika Birleşik Devletleri'nin Teksas eyaleti Austin kentinde yaşayan Creme Puff'a ait. Akıl almaz şekilde 38 yaşına ulaşan kedi, 6 Ağustos 2005'te yaşamını yitirmiştir.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="cute1.jpg" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Yavru Kediler</h3>
+          <p> (ilk 6 ay) 6 aylık süreyi tamamladıklarında 10 insan yaşında olurlar.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="catfoto4.jpg" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Ergen Kediler</h3>
+          <p>(6 ay ile 2 yaş arası) bu aşamadaki kedilerin davranış ve cinsellikle ilgili konularda olgunlaşmaya başlar.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="catfoto6.jpg" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Yetişkin Kediler</h3>
+          <p>(3 yaş ile 6 yaş) 3 yaşına ulaşan kediler olgun kabul edilir. Bu süreç 6 yaşına kadar devam eder.
+
+</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="catfoto5.jpg" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Yaşlı Kediler </h3>
+          <p> (7 yaş ve üzeri) 7 yaşından itibaren kediler 100 insan yılından fazla yaşayabilir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gallery Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>KEDİ IRKLARI</h2>
+      <hr>
+      <p>Dünyada 70'den fazla kedi ırkı olduğunu biliyor muydunuz?</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">HEPSİ</a></li>
+            <li><a href="#" data-filter=".lawn">British Shorthair</a></li>
+            <li><a href="#" data-filter=".garden">Scottish Fold</a></li>
+            <li><a href="#" data-filter=".planting">Khao Manee</a></li>
+           
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="britishshort.jpg" title="BRITISH SHORTHAIR" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>BRITISH SHORTHAIR</h4>
+              </div>
+              <img src="britishshort.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 planting">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="k.jpg" title="KHAO MANEE" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>KHAO MANEE</h4>
+              </div>
+              <img src="k.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="bb.jpg" title="BRITISH SHORTHAIR" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>BRITISH SHORTHAIR</h4>
+              </div>
+              <img src="bb.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="bbbb.jpg" title="BRITISH SHORTHAIR" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>BRITISH SHORTHAIR</h4>
+              </div>
+              <img src="bbbb.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 planting">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="a.jpg" title="KHAO MANEE" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>KHAO MANEE</h4>
+              </div>
+              <img src="a.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 garden">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="s.jpg" title="SCOTTISH FOLD" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>SCOTTISH FOLD</h4>
+              </div>
+              <img src="s.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 garden">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="ş.jpg" title="SCOTTISH FOLD" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>SCOTTISH FOLD</h4>
+              </div>
+              <img src="ş.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="son2.jpg" title="BRITISH SHORTHAIR" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>BRITISH SHORTHAIR</h4>
+              </div>
+              <img src="son2.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 planting">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="kh.jpg" title="KHAO MANEE" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>KHAO MANEE</h4>
+              </div>
+              <img src="kh.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Testimonials Section -->
+<div id="testimonials" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title">
+        <h2>KEDİLER HAKKINDA İLGİNÇ BİLGİLER</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div id="testimonial" class="owl-carousel owl-theme">
+            <div class="item">
+              <p>Kedilerin kendilerine has zarif bir yürüyüşleri vardır. Bu yürüyüş develer ve zürafalarla birebir aynı özelliklere sahiptir. Yürüme sekansları önce her iki sağ ayak sonrasında ise her iki sol ayak şeklinde ilerler. Yürüme esnasında vücutlarının yarısını aynı anda ileriye doğru hareket ettirebilirler. Üstelik sağ ön patisiyle bastıkları yere sağ arka patileri ile, sol ön patileri ile bastıkları yere ise sol ön patileri ile basabilirler; ön ayaklar ile arka ayakların tam olarak aynı noktaya temas etmesi kedilerle ilgili ilginç bilgiler arasında yer alır.</p>
+              
+            </div>
+            <div class="item">
+              <p>Pusuya yatmaları, gerinirken sergiledikleri zarif hareketler ve karanlıkta parlayan gözleri ile kimi zaman evimizi kedi ile değil kaplanla paylaştığımız hissine kapılabiliriz. Nitekim bu his çok da yanıltıcı değildir. Kedigillerin korunması amacıyla yapılan bilimsel bir çalışmada kaplanların, aslanların ve kar leoparlarının genomları sıralandı. Varılan sonuç dünyanın en büyük ve en vahşi kedileri olarak görülen kaplanlar ile sevimli evcil kedilerin DNA'sının %95,6 oranında benzerlik olduğu yönündeydi.</p>
+             
+            </div>
+            <div class="item">
+              <p>Kediler vahşi doğada tamamen et ile beslenen etobur canlılardır. Metabolizmaları yalnızca et türlerinde bulunan ve vücut tarafından sentezlenemeyen taurin gibi esansiyel aminoasitlere ihtiyaç duyar. Sağlıklarının devamlılığı için büyük önem taşıyan aminoasitlerin gereğinden az bulunması görme yetisinin kaybından kalp yetmezliğine kadar birçok farklı sağlık sorununun gelişimine yol açabilir. Kedilerde dengeli bir vegan diyeti uygulamak ve aynı zamanda onların damak zevklerine de hitap edebilmek oldukça düşük bir ihtimaldir. Bu nedenle en sağlıklısı kedilerin yaşlarına ve genel sağlık durumlarına özel üretilen kuru mamaların kullanılmasıdır.</p>
+             
+            </div>
+            <div class="item">
+              <p>Evet, bu kedilerle yaşayan ve bekledikleri ilgiyi göremediklerini düşünen birçok kişi için oldukça önemli ve aynı zamanda mutluluk veren bir bilgi! Yapılan bilimsel araştırmalar kedi davranışlarının anlaşılmasında giderek daha ilginç gerçekleri ortaya koyuyor. Kedilerin insanları yalnızca yiyecek kaynağı olarak görmediklerini, sahiplerini konfor ve güven ile bağdaştırdıkları düşünülüyor. Tıpkı köpeklerde ve hatta bebeklerde olduğu gibi kediler de insanlarına güvenli bağlanabiliyor!</p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<div id="footer">
+  <div class="container text-center">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.google.com/"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

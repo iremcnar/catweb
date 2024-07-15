@@ -1,0 +1,358 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34306CEA-B4B8-4676-AD73-569C6DA8958B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sql</RootNamespace>
+    <AssemblyName>sql</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44351</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="a.jpg" />
+    <Content Include="arka.jpg" />
+    <Content Include="arka1.jpg" />
+    <Content Include="arka2.jpg" />
+    <Content Include="arkaplan.jpg" />
+    <Content Include="b.jpg" />
+    <Content Include="b5.jpg" />
+    <Content Include="bb.jpg" />
+    <Content Include="bbb.jpg" />
+    <Content Include="bbbb.jpg" />
+    <Content Include="british.jpg" />
+    <Content Include="britishshort.jpg" />
+    <Content Include="britishshorthair.jpeg" />
+    <Content Include="cat2.jpg" />
+    <Content Include="cat3.jpg" />
+    <Content Include="cat4.jpg" />
+    <Content Include="cat5.jpg" />
+    <Content Include="catdog.jpg" />
+    <Content Include="catdog1.jpg" />
+    <Content Include="catdog2.jpg" />
+    <Content Include="catfoto.jpg" />
+    <Content Include="catfoto2.jpg" />
+    <Content Include="catfoto3.jpg" />
+    <Content Include="catfoto4.jpg" />
+    <Content Include="catfoto5.jpg" />
+    <Content Include="catfoto6.jpg" />
+    <Content Include="catfoto7.jpg" />
+    <Content Include="catfoto8.jpg" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\nivo-lightbox\close%402x.png" />
+    <Content Include="css\nivo-lightbox\close.png" />
+    <Content Include="css\nivo-lightbox\default.css" />
+    <Content Include="css\nivo-lightbox\loading%402x.gif" />
+    <Content Include="css\nivo-lightbox\loading.gif" />
+    <Content Include="css\nivo-lightbox\next%402x.png" />
+    <Content Include="css\nivo-lightbox\next.png" />
+    <Content Include="css\nivo-lightbox\nivo-lightbox.css" />
+    <Content Include="css\nivo-lightbox\prev%402x.png" />
+    <Content Include="css\nivo-lightbox\prev.png" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\style.css" />
+    <Content Include="cute1.jpg" />
+    <Content Include="cute2.jpg" />
+    <Content Include="cute3.jpg" />
+    <Content Include="cute4.jpg" />
+    <Content Include="evcilhayvan.jpg" />
+    <Content Include="evcilhayvan2.jpg" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="for.jpg" />
+    <Content Include="for2.jpg" />
+    <Content Include="girişkedi.aspx" />
+    <Content Include="güncellekedi.aspx" />
+    <Content Include="img\about-1.jpg" />
+    <Content Include="img\about-2.jpg" />
+    <Content Include="img\intro-bg.jpg" />
+    <Content Include="img\portfolio\01-large.jpg" />
+    <Content Include="img\portfolio\01-small.jpg" />
+    <Content Include="img\portfolio\02-large.jpg" />
+    <Content Include="img\portfolio\02-small.jpg" />
+    <Content Include="img\portfolio\03-large.jpg" />
+    <Content Include="img\portfolio\03-small.jpg" />
+    <Content Include="img\portfolio\04-large.jpg" />
+    <Content Include="img\portfolio\04-small.jpg" />
+    <Content Include="img\portfolio\05-large.jpg" />
+    <Content Include="img\portfolio\05-small.jpg" />
+    <Content Include="img\portfolio\06-large.jpg" />
+    <Content Include="img\portfolio\06-small.jpg" />
+    <Content Include="img\portfolio\07-large.jpg" />
+    <Content Include="img\portfolio\07-small.jpg" />
+    <Content Include="img\portfolio\08-large.jpg" />
+    <Content Include="img\portfolio\08-small.jpg" />
+    <Content Include="img\portfolio\09-large.jpg" />
+    <Content Include="img\portfolio\09-small.jpg" />
+    <Content Include="img\portfolio\10-large.jpg" />
+    <Content Include="img\portfolio\10-small.jpg" />
+    <Content Include="img\portfolio\11-large.jpg" />
+    <Content Include="img\portfolio\11-small.jpg" />
+    <Content Include="img\portfolio\12-large.jpg" />
+    <Content Include="img\portfolio\12-small.jpg" />
+    <Content Include="img\services\service-1.jpg" />
+    <Content Include="img\services\service-2.jpg" />
+    <Content Include="img\services\service-3.jpg" />
+    <Content Include="img\services\service-4.jpg" />
+    <Content Include="img\testimonials-bg.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\contact_me.js" />
+    <Content Include="js\jqBootstrapValidation.js" />
+    <Content Include="js\jquery.1.11.1.js" />
+    <Content Include="js\jquery.isotope.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\nivo-lightbox.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\SmoothScroll.js" />
+    <Content Include="k.jpg" />
+    <Content Include="kayıtkedi.aspx" />
+    <Content Include="kedi.aspx" />
+    <Content Include="kedi.jpg" />
+    <Content Include="kh.jpg" />
+    <Content Include="kuş.jpg" />
+    <Content Include="KÖPEK.jpg" />
+    <Content Include="mail\contact_me.php" />
+    <Content Include="q.jpg" />
+    <Content Include="q2.jpg" />
+    <Content Include="q3.jpg" />
+    <Content Include="q4.jpg" />
+    <Content Include="s.jpg" />
+    <Content Include="sf.jpg" />
+    <Content Include="son.jpg" />
+    <Content Include="son2.jpg" />
+    <Content Include="t.jpg" />
+    <Content Include="uwu.jpg" />
+    <Content Include="uwu2.jpg" />
+    <Content Include="uwu3.jpg" />
+    <Content Include="uwu4.jpg" />
+    <Content Include="uwu5.jpg" />
+    <Content Include="uwu6.jpg" />
+    <Content Include="uwuwu.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="ş.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="girişkedi.aspx.cs">
+      <DependentUpon>girişkedi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="girişkedi.aspx.designer.cs">
+      <DependentUpon>girişkedi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="girişkedi.Master.cs">
+      <DependentUpon>girişkedi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="girişkedi.Master.designer.cs">
+      <DependentUpon>girişkedi.Master</DependentUpon>
+    </Compile>
+    <Compile Include="güncellekedi.aspx.cs">
+      <DependentUpon>güncellekedi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="güncellekedi.aspx.designer.cs">
+      <DependentUpon>güncellekedi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="güncellekedi.Master.cs">
+      <DependentUpon>güncellekedi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="güncellekedi.Master.designer.cs">
+      <DependentUpon>güncellekedi.Master</DependentUpon>
+    </Compile>
+    <Compile Include="kayıtkedi.aspx.cs">
+      <DependentUpon>kayıtkedi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayıtkedi.aspx.designer.cs">
+      <DependentUpon>kayıtkedi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kayıtkedi.Master.cs">
+      <DependentUpon>kayıtkedi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayıtkedi.Master.designer.cs">
+      <DependentUpon>kayıtkedi.Master</DependentUpon>
+    </Compile>
+    <Compile Include="kedi.aspx.cs">
+      <DependentUpon>kedi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kedi.aspx.designer.cs">
+      <DependentUpon>kedi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kedi.Master.cs">
+      <DependentUpon>kedi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kedi.Master.designer.cs">
+      <DependentUpon>kedi.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="site.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kedi.Master" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="fonts\font-awesome\less\animated.less" />
+    <Content Include="fonts\font-awesome\less\bordered-pulled.less" />
+    <Content Include="fonts\font-awesome\less\core.less" />
+    <Content Include="fonts\font-awesome\less\fixed-width.less" />
+    <Content Include="fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="fonts\font-awesome\less\icons.less" />
+    <Content Include="fonts\font-awesome\less\larger.less" />
+    <Content Include="fonts\font-awesome\less\list.less" />
+    <Content Include="fonts\font-awesome\less\mixins.less" />
+    <Content Include="fonts\font-awesome\less\path.less" />
+    <Content Include="fonts\font-awesome\less\rotated-flipped.less" />
+    <Content Include="fonts\font-awesome\less\stacked.less" />
+    <Content Include="fonts\font-awesome\less\variables.less" />
+    <Content Include="fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="fonts\font-awesome\scss\_animated.scss" />
+    <Content Include="fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="fonts\font-awesome\scss\_core.scss" />
+    <Content Include="fonts\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="fonts\font-awesome\scss\_larger.scss" />
+    <Content Include="fonts\font-awesome\scss\_list.scss" />
+    <Content Include="fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="fonts\font-awesome\scss\_path.scss" />
+    <Content Include="fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="fonts\font-awesome\scss\_stacked.scss" />
+    <Content Include="fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="köpek.webp" />
+    <Content Include="kayıtkedi.Master" />
+    <Content Include="girişkedi.Master" />
+    <Content Include="güncellekedi.Master" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55843</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44351/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
